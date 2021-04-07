@@ -13,6 +13,14 @@ header {
   background-color: #e2e2e2;
 }
 
+header h1 {
+  font-weight: bold;
+}
+
+header img {
+  width: 2rem;
+}
+
 nav {
   background-color: #e2e2e2;
   padding: 1em;
@@ -29,4 +37,24 @@ nav ul {
 
 nav li {
   margin: .5rem;
+  align-items: stretch;
+  font-size: 1.125rem;
+}
+
+nav a {
+  color: #0074d9;
+  text-decoration: none;
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+}
+
+@media only screen and (min-width: 40em) {
+
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
