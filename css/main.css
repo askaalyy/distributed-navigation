@@ -11,6 +11,7 @@ html {
 header {
   display: flex;
   background-color: #e2e2e2;
+  padding: 1rem;
 }
 
 header h1 {
@@ -19,6 +20,8 @@ header h1 {
 
 header img {
   width: 2rem;
+  position: absolute;
+  left: auto;
 }
 
 nav {
