@@ -24,6 +24,10 @@ header img {
   left: auto;
 }
 
+header p {
+
+}
+
 nav {
   background-color: #e2e2e2;
   padding: 1em;
@@ -35,7 +39,6 @@ nav ul {
   padding: 0;
   display: flex;
   justify-content: center;
-
 }
 
 nav li {
@@ -47,6 +50,7 @@ nav li {
 nav a {
   color: #0074d9;
   text-decoration: none;
+
 }
 
 body {
