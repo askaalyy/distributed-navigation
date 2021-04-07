@@ -7,3 +7,26 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+header {
+  display: flex;
+  background-color: #e2e2e2;
+}
+
+nav {
+  background-color: #e2e2e2;
+  padding: 1em;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+
+}
+
+nav li {
+  margin: .5rem;
+}
