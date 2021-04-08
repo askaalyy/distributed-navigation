@@ -10,27 +10,29 @@ html {
 
 header {
   display: flex;
+  flex-direction: column;
   background-color: #e2e2e2;
-  padding: 1rem;
-}
-
-header h1 {
-  font-weight: bold;
+  padding: .75em 1em .6em;
 }
 
 header img {
   width: 2rem;
   position: absolute;
   left: auto;
+  align-content: stretch;
+}
+header h1 {
+  font-weight: bold;
 }
 
 header p {
+  margin: auto;
 
 }
 
 nav {
   background-color: #e2e2e2;
-  padding: 1em;
+  padding: 1rem;
 }
 
 nav ul {
