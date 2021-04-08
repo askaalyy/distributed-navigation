@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   font-family: sans-serif;
   line-height: 1.5;
+  background-color: #fff;
 }
 
 *, *::before, *::after {
@@ -12,7 +13,8 @@ header {
   display: flex;
   flex-direction: column;
   background-color: #e2e2e2;
-  padding: .75em 1em .6em;
+  justify-content: center;
+  align-items: center;
 }
 
 header img {
@@ -21,13 +23,15 @@ header img {
   left: auto;
   align-content: stretch;
 }
+
 header h1 {
   font-weight: bold;
+  margin: .5rem;
+  padding: 0 0 0 1em;
 }
 
 header p {
   margin: auto;
-
 }
 
 nav {
@@ -40,7 +44,6 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center;
 }
 
 nav li {
@@ -52,7 +55,13 @@ nav li {
 nav a {
   color: #0074d9;
   text-decoration: none;
+  padding: .75em;
+}
 
+a:hover {
+  background-color: #e2e2e2;
+  color: #fff;
+  border-color: #fff;
 }
 
 body {
@@ -66,4 +75,5 @@ body {
     flex-direction: row;
     justify-content: space-between;
   }
+
 }
